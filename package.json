@@ -1,0 +1,19 @@
+{
+  "name": "dump-asg",
+  "version": "1.0.0",
+  "description": "Dump out autoscaling group information",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint *.js lib/*.js"
+  },
+  "author": "John Morrison <jrgmorrison@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "2.149.0",
+    "bluebird": "3.5.1",
+    "printf": "0.2.5"
+  },
+  "devDependencies": {
+    "eslint": "4.11.0"
+  }
+}
